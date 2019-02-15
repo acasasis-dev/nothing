@@ -50,6 +50,7 @@ tword = sys.argv[3:]
 loutput = []
 
 for word in tword:
+	word = word.upper()
 	tloutput = "\n"
 	for words in word.split( "@" ):
 		l = 0
